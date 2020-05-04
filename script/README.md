@@ -14,7 +14,7 @@ run:
 docker run -it \
 -v {path to .kaggle folder}:/root/.kaggle \
 -v {path to .aws folder}:/root/.aws \
-kaggle_s3:1.0 \
+tbenthomas/kaggle_s3:1.0 \
 /app/kaggle_s3.sh {kaggle dataset} {s3 bucket location}
 ```
 
@@ -38,7 +38,7 @@ This example also uses an s3 bucket location I created at path s3://test6526/dat
 docker run -it \
 -v ~/.kaggle:/root/.kaggle \
 -v ~/.aws:/root/.aws \
-kaggle_s3:1.0 \
+tbenthomas/kaggle_s3:1.0 \
 /app/kaggle_s3.sh sudalairajkumar/novel-corona-virus-2019-dataset s3://test6526/data/
 
 ```
