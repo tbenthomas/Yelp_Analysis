@@ -1,4 +1,4 @@
-# This directory contains a Dockerfile to cerate a container to load a kaggle dataset to an S3 bucket. 
+# This directory contains a Dockerfile and script to create a container to load a kaggle dataset to an S3 bucket. 
 
 The script is called "kaggle_s3.sh"
 # Docker Container
