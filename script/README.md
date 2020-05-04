@@ -25,7 +25,9 @@ tbenthomas/kaggle_s3:1.0 \
 - s3 bucket location. This specifies the path of the S3 bucket location you want to load
 
 *Please note*
+
 **You must have a kaggle.json file located in a .kaggle folder and a config file located in a .aws folder**
+
 **These files must be volume mounted when running the container**
 
 ## Example arguments (My Case).
