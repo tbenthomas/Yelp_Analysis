@@ -7,8 +7,8 @@ A docker container is located [here](https://hub.docker.com/repository/docker/tb
 run: 
 ```
 docker run -it \
--v {path to .kaggle}:/root/.kaggle \
--v {path to .aws}:/root/.aws \
+-v {path to .kaggle folder}:/root/.kaggle \
+-v {path to .aws folder}:/root/.aws \
 kaggle_s3:1.0 \
 /app/kaggle_s3.sh {kaggle dataset} {s3 bucket location}
 ```
