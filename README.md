@@ -1,4 +1,4 @@
-# Analysis of 10 GB of Yelp Reviews leveraging Pyspark and AWS EMR
+# Analysis of Yelp business, user, and reviews data
 
 This project leverages AWS EMR and a pyspark Jupyter Notebook to analyze 10 GB of Yelp Review Data. 
 
