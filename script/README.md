@@ -18,11 +18,15 @@ tbenthomas/kaggle_s3:1.0 \
 /app/kaggle_s3.sh {kaggle dataset} {s3 bucket location}
 ```
 
-Required arguments are:
+## Required arguments are:
 - Path to .kaggle folder on your local. This contains kaggle username and security key
 - Path to .aws folder on your local. This contains personal security configuration for your aws account
 - kaggle dataset path. This contains the path to the dataset you want to pull.
 - s3 bucket location. This specifies the path of the S3 bucket location you want to load
+
+*Please note*
+**You must have a kaggle.json file located in a .kaggle folder and a config file located in a .aws folder**
+**These files must be volume mounted when running the container**
 
 ## Example arguments (My Case).
 This example uses this [kaggle dataset](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset) 
