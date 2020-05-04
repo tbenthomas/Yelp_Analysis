@@ -10,7 +10,7 @@ The notebook (Analysis.ipynb) contains an analysis of Yelp's business, review, a
 This repository also contains a folder called script. That contains the source of a [docker container](https://hub.docker.com/repository/docker/tbenthomas/kaggle_s3/tags?page=1) that can be ran to pull a kaggle dataset and push to S3. Details on usage are in the README.md within that folder. 
 
 # S3 Bucket
-The data used in our analysis has been stored in a public S3 bucket.
+The data used in the analysis has been stored in a public S3 bucket.
 The paths to the datasets are as follows: 
 
 https://yelp-reviews.s3.amazonaws.com/data/yelp_academic_dataset_business.json
