@@ -28,7 +28,9 @@ tbenthomas/kaggle_s3:1.0 \
 
 **You must have a kaggle.json file located in a .kaggle folder and a config file located in a .aws folder**
 
-**These files must be volume mounted when running the container**
+**These are security and configuration requirements to use the kaggle CLI and aws CLI**
+
+**These directories must be volume mounted when running the container**
 
 ## Example arguments (My Case).
 This example uses this [kaggle dataset](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset) 
