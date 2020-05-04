@@ -6,6 +6,7 @@ The data was taken from [kaggle](https://www.kaggle.com/yelp-dataset/yelp-datase
 
 The notebook (Analysis.ipynb) contains an analysis of Yelp's business, review, and user data.
 
+# Docker script
 This repository also contains a folder called script. That contains the source of a [docker container](https://hub.docker.com/repository/docker/tbenthomas/kaggle_s3/tags?page=1) that can be ran to pull a kaggle dataset and push to S3. Details on usage are in the README.md within that folder. 
 
 # S3 Bucket
