@@ -25,7 +25,7 @@ This example also uses an s3 bucket location I created at path s3://test6526/dat
 
 - Path to .kaggle folder on your local. ~/.kaggle
 - Path to .aws folder on your local. ~/.aws
-- kaggle dataset path. udalairajkumar/novel-corona-virus-2019-dataset
+- kaggle dataset path. sudalairajkumar/novel-corona-virus-2019-dataset
 - s3 bucket location. s3://test6526/data/
 
 ## Example Run
