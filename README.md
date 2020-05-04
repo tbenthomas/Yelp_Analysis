@@ -5,7 +5,7 @@ This project leverages AWS EMR and a pyspark Jupyter Notebook to analyze 10 GB o
 
 The data was taken from [kaggle](https://www.kaggle.com/yelp-dataset/yelp-dataset).
 
-The notebook (Analysis.ipynb) contains an analysis of Yelp's business, review, and user data. This dataset comes from https://www.kaggle.com/yelp-dataset/yelp-dataset.
+The notebook (Analysis.ipynb) contains an analysis of Yelp's business, review, and user data.
 
 # S3 Bucket
 This data has been stored in a public S3 bucket.
