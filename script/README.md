@@ -3,6 +3,11 @@
 The script is called "kaggle_s3.sh"
 # Docker Container
 A docker container is located [here](https://hub.docker.com/repository/docker/tbenthomas/kaggle_s3/tags?page=1)
+You can pull using commnad:
+```
+docker pull tbenthomas/kaggle_s3:1.0
+```
+
 # Usage
 run: 
 ```
